@@ -1,28 +1,28 @@
 /* $mainColor: red;
 $textColor: white; */
 
-.card {
+.cat-card {
     width: 300px;
     margin: 20px;
     padding: 50px;
   }
 
-  .name {
+  .cat-name {
     font-weight: 800;
     font-size:larger;
   }
 
-.pic {
+.cat-pic {
     border-radius: 10px;
     width: 300px;
     height: 200px;
 }
 
-.text {
+.cat-text {
     text-align: justify;
 }
 
-.button {
+.cat-button {
   background-color: red;
   color: white;
   border-radius: 5px;
