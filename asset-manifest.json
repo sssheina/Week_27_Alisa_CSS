@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Week_27_Alisa_CSS/static/css/main.7a8a2ec3.css",
+    "main.css": "/Week_27_Alisa_CSS/static/css/main.58ff2231.css",
     "main.js": "/Week_27_Alisa_CSS/static/js/main.0ab86983.js",
     "static/js/787.4d0606bf.chunk.js": "/Week_27_Alisa_CSS/static/js/787.4d0606bf.chunk.js",
     "index.html": "/Week_27_Alisa_CSS/index.html",
-    "main.7a8a2ec3.css.map": "/Week_27_Alisa_CSS/static/css/main.7a8a2ec3.css.map",
+    "main.58ff2231.css.map": "/Week_27_Alisa_CSS/static/css/main.58ff2231.css.map",
     "main.0ab86983.js.map": "/Week_27_Alisa_CSS/static/js/main.0ab86983.js.map",
     "787.4d0606bf.chunk.js.map": "/Week_27_Alisa_CSS/static/js/787.4d0606bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a8a2ec3.css",
+    "static/css/main.58ff2231.css",
     "static/js/main.0ab86983.js"
   ]
 }
