@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import styles from './App.css';
+
+import Cat from './components/cat';
+
+const cats = [
+  { name: "Носик", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCymWxyHnzJrDkfyNY79oX83oxzRtiM6rOsQ&usqp=CAU", text:"test"},
+  { name: "Вася", img: "https://scientificrussia.ru/images/b/teb-full.jpg", isSelected: true,},
+  { name: "Балу", img: "https://img5.goodfon.ru/wallpaper/nbig/0/c8/kotik-kotenok-fon.jpg"},
+];
+
+class App extends React.Component {
+  render() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div className={this.props.theme.App} >
+      
+      <div className={styles.card}>
+      {
+        cats.map((cat) =>
+        <Cat name={cat.name} img={cat.img} text={cat.text} isSelected={cat.isSelected} />)
+      }
+      </div>
+      <button className={styles.button} >Нажми меня</button>
+      </div>
+    
+    
   );
+}
 }
 
 export default App;
